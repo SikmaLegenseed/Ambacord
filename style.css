@@ -61,16 +61,12 @@ aside{
     cursor: pointer;
     margin-top: 20px;
 }
-
-.toggle-theme:hover {
-    background-color: #ccc;
-}
   
 :root {
     --background-color: #fff;
     --text-color: #333;
 }
-  .dark-mode {
+.dark-mode {
     --background-color: #333;
     --text-color: #fff;
 }
@@ -199,4 +195,12 @@ ul:hover li a:not(:hover){
     color: white;
     opacity: 0.3;
     filter: blur(1px);
+}
+
+.toggle-theme:hover {
+    background-color: #ccc;
+}
+
+.toggle-theme:active {
+    background-color: #999;
 }
