@@ -8,6 +8,6 @@ if (tema === 'dark-mode') {
 
 toggleThemeButton.addEventListener('click', () => {
   body.classList.toggle('dark-mode');
-  toggleThemeButton.textContent = body.classList.contains('dark-mode') ? 'Active!' : 'Toggle Theme';
+  toggleThemeButton.textContent = body.classList.contains('dark-mode') ? 'Change Back?' : 'Change Theme?';
   localStorage.setItem('tema', body.classList.contains('dark-mode') ? 'dark-mode' : 'light-mode');
 });

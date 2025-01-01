@@ -4,6 +4,15 @@
     margin: 0;
 }
 
+:root {
+    --background-color: #fff;
+    --text-color: #333;
+}
+.dark-mode {
+    --background-color: #333;
+    --text-color: #fff;
+}
+
 body{
     font-family: 'Righteous', cursive;
     display: flex;
@@ -61,15 +70,6 @@ aside{
     cursor: pointer;
     margin-top: 20px;
 }
-  
-:root {
-    --background-color: #fff;
-    --text-color: #333;
-}
-.dark-mode {
-    --background-color: #333;
-    --text-color: #fff;
-}
 
 .section{
     color: white;
@@ -93,7 +93,7 @@ aside{
     font-size: 18px;
 }
 
-.section-features{
+.section-news{
     color: white;
     justify-content: center;
     text-align: center;
@@ -114,10 +114,11 @@ aside{
     margin-top: 20px;
 }
 
-.feature-1{
+
+.news-1{
     margin-top: 30px;
     margin-bottom: 30px;
-    background-color: white;
+    background-color: #e0e2e4;
     border-radius: 20px;
     width: 50%;
     color: black;
@@ -125,33 +126,46 @@ aside{
     margin-left: 20px;
 }
 
-.faeture-1 h2{
-    margin-bottom: 20px;
+.news-1 img{
+    border: 3px solid #000000;
+    border-radius: 10%;
 }
 
-.feature-1 p{
+.news-1 h2{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.news-1 p{
     margin-bottom: 20px;
     margin-top: 20px;
     margin-left: 10px;
     margin-right: 10px;
 }
 
-.feature-2{
+.news-2{
     margin-top: 30px;
     margin-bottom: 30px;
-    background-color: white;
+    background-color: #e0e2e4;
     border-radius: 20px;
     width: 50%;
     /* margin-left: 55%; */
     color: black;
     margin-right: 20px;
+    margin-left: 20px;
 }
 
-.feature-2 h2{
+.news-2 img{
+    border: 3px solid #000000;
+    border-radius: 10%;
+}
+
+.news-2 h2{
     margin-bottom: 20px;
+    margin-top: 20px;
 }
 
-.feature-2 p{
+.news-2 p{
     margin-bottom: 20px;
     margin-top: 20px;
     margin-left: 10px;
@@ -159,7 +173,7 @@ aside{
 }
 
 
-.section-features h1{
+.section-newss h1{
     margin-bottom: 20px;
 }
 
