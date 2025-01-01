@@ -14,7 +14,7 @@
 }
 
 body{
-    font-family: 'Righteous', cursive;
+    font-family: 'Courier New', Courier, monospace;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -114,6 +114,11 @@ aside{
     margin-top: 20px;
 }
 
+figcaption{
+    font-family:'Courier New', Courier, monospace;
+    margin-top: 5px;
+    font-weight: 300;
+}
 
 .news-1{
     margin-top: 30px;
@@ -124,6 +129,7 @@ aside{
     color: black;
     margin-right: 20px;
     margin-left: 20px;
+    font-weight: bold;
 }
 
 .news-1 img{
@@ -153,6 +159,7 @@ aside{
     color: black;
     margin-right: 20px;
     margin-left: 20px;
+    font-weight: bold;
 }
 
 .news-2 img{
